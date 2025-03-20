@@ -1,4 +1,0 @@
-Airline: Shenzhen Airlines, Airline Code: zh-csz
-Airline: IndiGo, Airline Code: 6e-igo
-Airline: KLM Royal Dutch Airlines, Airline Code: kl-klm
-
