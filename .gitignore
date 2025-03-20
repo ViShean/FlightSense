@@ -6,3 +6,7 @@ model_development/departure/xgboost/xgboost_model.json
 model_development/departure/lightgbm/lightgbm_model.txt
 data/dataset/.DS_Store
 data/dataset/.DS_Store
+model_development/.DS_Store
+data/raw/.DS_Store
+data/.DS_Store
+model_development/arrival/.DS_Store
