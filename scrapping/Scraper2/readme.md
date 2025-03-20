@@ -29,9 +29,9 @@ The script assumes the following folder structure:
 ```
 
 ## Folder Details:
-data/: This folder will hold the CSV files for each airline, named in the format {operator}_{airline}.csv.
-flights.csv: This file stores flight information for all planes scraped, appending new data with each run. If the file does not exist, the script will create it.
-UnScrapable.csv: This file logs any aircraft that the scraper cannot retrieve data for after a specified number of attempts.  
+- **data/:** This folder will hold the CSV files for each airline, named in the format {operator}_{airline}.csv.
+- **flights.csv**: This file stores flight information for all planes scraped, appending new data with each run. If the file does not exist, the script will create it.
+- **UnScrapable.csv**: This file logs any aircraft that the scraper cannot retrieve data for after a specified number of attempts.  
 
 ## Input Data 
 1. Airline to Scrape:
