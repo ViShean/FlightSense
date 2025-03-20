@@ -50,49 +50,49 @@ self.login("your_email@example.com", "your_password")
 
 
 ## Workflow
-Login:
+1. Login:
 The script first logs into FlightRadar24 using the provided credentials.
 
-Extract Aircraft Overview Information:
+2. Extract Aircraft Overview Information:
 After logging in, the script navigates to the airline's fleet page, collects the list of aircraft, and extracts each aircraft's details, including its type code, operator, code, Mode S, serial number, and age.
 
-Scraping Aircraft Details:
+3. Scraping Aircraft Details:
 For each aircraft, the script navigates to its specific details page and attempts to retrieve flight history. It will keep loading earlier flights until no more data is available or a timeout occurs. If an aircraft's data cannot be retrieved after several attempts, it is logged in UnScrapable.csv.
 
-Data Collection and Saving:
+4. Data Collection and Saving:
 Flight data is collected and saved in a CSV file for each airline. The data for each plane is stored in the format:
 
-planeID
-aircraftTypeCode
-operator
-code
-modeS
-serialNumber
-age
-Flight details such as date, departure, arrival, flight number, and status.
-Final Output:
+- ```planeID```
+- ```aircraftTypeCode```
+- ```operator```
+- ```code```
+- ```modeS```
+- ```serialNumber```
+- ```age```
+- Flight details such as date, departure, arrival, flight number, and status.
+5. Final Output:  
 After processing all the aircraft, the script renames the flights.csv file to the airline’s name, e.g., japan-airlines_jl-jal.csv, and saves it in the data/ folder.
 
 Handling Errors:
 If the scraper encounters issues with a particular aircraft (e.g., it cannot load data), the aircraft ID is logged in UnScrapable.csv.
 
 ## How to Use
-Update Airline List:
-Modify the airlineToScrape list to include the airline(s) you want to scrape.
+1. **Update Airline List**:
+Modify the ```airlineToScrape``` list to include the airline(s) you want to scrape.
 
-Run the Script:
+2. **Run the Script**:
 Run the script by executing:
 ```
 python scraper.py
 ```
-Check Output:
+3. **Check Output**:
 The scraped flight data will be saved in the data/ folder with filenames corresponding to the airline. If there were any issues scraping certain aircraft, they will be logged in UnScrapable.csv.
 
 
 ## Customization
-Login Credentials: You need to modify the login method with your own username and password for FlightRadar24.
-Max Retry Attempts: The script will retry loading data for a plane up to 100 times. If it still fails to retrieve the data, the plane ID is logged in UnScrapable.csv.
-Airlines to Scrape: You can add more airline codes to the airlineToScrape list to scrape additional fleets.
+- **Login Credentials**: You need to modify the `login` method with your own username and password for FlightRadar24.
+- **Max Retry Attempts**: The script will retry loading data for a plane up to 100 times. If it still fails to retrieve the data, the plane ID is logged in `UnScrapable.csv`.
+- **Airlines to Scrape**: You can add more airline codes to the `airlineToScrape` list to scrape additional fleets.
 ## Limitations
 The script is designed for scraping flight data from FlightRadar24's fleet pages. If the structure of the website changes, the script may need adjustments.
 The login method currently only works with FlightRadar24 and may need to be adjusted for other sites.
