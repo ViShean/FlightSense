@@ -1,0 +1,19 @@
+Airline: Singapore Airlines, Airline Code: sq-sia
+Airline: Juneyao Air(Colorful Petals livery), Airline Code: ho-dkh
+Airline: Jetstar, Airline Code: jq-jst
+Airline: Shenzhen Airlines, Airline Code: zh-csz
+Airline: Philippine Airlines, Airline Code: pr-pal
+Airline: Japan Airlines, Airline Code: jl-jal
+Airline: SriLankan Airlines, Airline Code: ul-alk
+Airline: Starlux, Airline Code: jx-sjx
+Airline: Qantas, Airline Code: qf-qfa
+Airline: KLM, Airline Code: kl-klm
+Airline: Spring Airlines, Airline Code: 9c-cqh
+Airline: Royal Brunei Airlines (50th Anniversary Sticker), Airline Code: bi-rba
+Airline: Sichuan Airlines (熊猫之路 Panda Route Livery), Airline Code: 3u-csc
+Airline: Scoot, Airline Code: tr-tgw
+Airline: Saudia, Airline Code: sv-sva
+Airline: Shandong Airlines, Airline Code: sc-cdg
+Airline: Jeju Air, Airline Code: 7c-jja
+Airline: IndiGo, Airline Code: 6e-igo
+Airline: Qatar Airways, Airline Code: qr-qtr
