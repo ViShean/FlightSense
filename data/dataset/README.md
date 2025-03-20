@@ -1,6 +1,6 @@
 # Dataset Versions & Parquet Management
 
-This repository contains processed datasets used for training sequential models and a utility notebook for managing Parquet files.
+This folder contains processed datasets used for training sequential models and a utility notebook for managing Parquet files.
 
 ## CLEANED_V6.1
 **Purpose:** Contains data that has been preprocessed and cleaned.  
