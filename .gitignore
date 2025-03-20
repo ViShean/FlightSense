@@ -1,2 +1,4 @@
 departure/lightgbm/lightgbm_model.txt
 departure/xgboost/xgboost_model.json
+scrapping/Collection/6e-igo/6e-igo_aircraft_data.csv
+scrapping/Collection - Copy/6e-igo/6e-igo_aircraft_data.csv
