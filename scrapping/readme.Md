@@ -1,7 +1,3 @@
-Below is a sample README that explains what the script does:
-
----
-
 # Flight Data Scraper
 
 This Python script is designed to scrape aircraft data from a flight tracking website (flightradar24.com) for various airlines. It automates the following processes:
@@ -63,7 +59,3 @@ This Python script is designed to scrape aircraft data from a flight tracking we
 
 - **Error Handling:** The script includes error handling for maintenance messages and retries when elements are not clickable.
 - **Human-like Behavior:** Implements random delays and incremental scrolling to mimic human interaction and avoid potential scraping blocks.
-
----
-
-This README should provide users with a clear understanding of what the script does and how to configure and run it. Feel free to adjust any sections to better fit your project specifics!
