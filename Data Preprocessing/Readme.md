@@ -4,7 +4,7 @@
 
 The goal of this notebook is to process and clean two datasets that were retrieved using two separate scrapers. Each scraper collected flight data, but the data had varying structures and fields. This notebook is designed to handle the data from both scrapers, clean and merge them into a unified dataset for further analysis.  
 
-Due to storage limitations on GitHub, the actual data files will **not** be showcased here. This README will serve as a walkthrough of what the script is doing in processing and cleaning the datasets.
+Due to storage limitations on GitHub, the actual data files will **NOT** be showcased here. This README will serve as a walkthrough of what the script is doing in processing and cleaning the datasets.
 
 ## Process Overview
 
