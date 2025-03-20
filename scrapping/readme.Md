@@ -1,9 +1,35 @@
 ## Scrapping_airlines.py
-Automates a browser session with Selenium to log in to a flight tracking site, scrape aircraft details and flight history for multiple airlines, and save the data to CSV files. It tracks progress in a JSON file so it can resume without re-scraping data.
 
-## validaiton_checker.py
-Reads the scraped aircraft data from the collection folders and compares it against a list of expected aircraft registrations from verification files. It validates whether each aircraft has enough flight history (using a cutoff date) and then updates the CSV files by removing entries with insufficient data. Unmatched registrations and airlines are saved to a final CSV and a text file for further review.
+Automates a browser session using Selenium to:
+- **Log in** to a flight tracking site.
+- **Scrape** aircraft details and flight history for multiple airlines.
+- **Save** the scraped data to CSV files.
+- **Track progress** using a JSON file, enabling the script to resume without re-scraping data.
 
-**Verify Folder**: Contains CSV files with aircraft registration codes for verification checks.\n
-**Collection Folder**: Holds all the scraped flight data for various airlines. \n
-**Output Folder**: Stores the results of the validation process, including CSV files for unmatched aircraft and a text file for unmatched airlines.\n 
+---
+
+## validation_checker.py
+
+Processes and validates the scraped data by:
+- Reading the scraped flight data from the **Collection Folder**.
+- Comparing the data against expected aircraft registrations listed in CSV files within the **Verify Folder**.
+- Validating that each aircraft has sufficient flight history based on a predefined cutoff date.
+- Updating the CSV files by removing entries with insufficient data.
+- Saving unmatched registrations and airlines to:
+  - A final CSV file.
+  - A text file for further review.
+
+---
+
+### Folder Structure
+
+- **Verify Folder**:  
+  Contains CSV files with aircraft registration codes for verification checks.
+
+- **Collection Folder**:  
+  Holds all the scraped flight data for various airlines.
+
+- **Output Folder**:  
+  Stores the results of the validation process, including:
+  - CSV file(s) for unmatched aircraft.
+  - A text file for unmatched airlines.
