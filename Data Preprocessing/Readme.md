@@ -46,6 +46,15 @@ The process involves the following steps:
 4. **Merging the Data:**  
    After cleaning, the data from both scrapers is merged into a single dataset, ensuring that all relevant information is combined and aligned correctly.
 
+5. **Processing the Data:**
+   After the initial  cleaning phase, date time processing of ATA,ATD,STA,STD were initiated in Proj_Clean_3.ipynb
+
+6. **Merging of weather data**
+   After the processing of date times, weather data attained from meteo stat was merged into 1 dataset
+
+7. **Further Cleaning**
+   Data Types were then converted, null values were handled accordingly which differed for different models.
+
 ## Output
 
 The final output is a single, cleaned, and merged dataset that combines the flight data from both scrapers. This dataset is ready for further analysis or visualization to explore trends, flight statuses, schedules, and other insights.
