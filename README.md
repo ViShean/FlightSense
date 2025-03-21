@@ -39,4 +39,4 @@ model_development/departure/stacking/stacking_3model.ipynb
 
 
 ### Video Introduction
-[![Custom Thumbnail](./Assets/group_thumbnail.jpg)](https://www.youtube.com/watch?v=uuWvW7OKyXA)
+[![Custom Thumbnail](./Assets/group_thumbnail.png)](https://www.youtube.com/watch?v=uuWvW7OKyXA)
