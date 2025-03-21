@@ -10,3 +10,4 @@ model_development/.DS_Store
 data/raw/.DS_Store
 data/.DS_Store
 model_development/arrival/.DS_Store
+env/
