@@ -3,6 +3,7 @@
 # User Manual
 
 # Overview
+FlightSense is a project aimed at predicting flight delays, specifically focusing on arrival and departure delays. The project follows a step-by-step workflow to retrieve, process, and model flight data for accurate delay predictions.  
 
 # Predictions Directory
 Do note that the notebooks to train and predict are under "/model_development", the other directories serve to explain the workflow and the whole process of the project to retrieve and process the dataset.  
