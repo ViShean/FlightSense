@@ -19,7 +19,7 @@ Do note that every directory will also have a readme to further explain the proc
 ```
 pip install >requirements.txt
 ```   
-2) To try out the script to train and evaluate the model to predict flight arrival delay
+2) To try out the script to train and evaluate the model to predict **flight arrival delay**
 - navigate to the file directory 
 ```
 model_development/arrival/stacking/stackArrival.ipynb
@@ -27,7 +27,7 @@ model_development/arrival/stacking/stackArrival.ipynb
 
 - Run it (do note that catboost do take slightly longer due to the params used for this training process, please re-adjust the params for the training of base models as you see fit)  
 
-3) To try out the script to train and evaluate the model to predict flight departure delay
+3) To try out the script to train and evaluate the model to predict **flight departure delay**
 - navigate to the file directory 
 ```
 model_development/departure/stacking/stacking_3model.ipynb
